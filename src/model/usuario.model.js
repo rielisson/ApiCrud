@@ -13,7 +13,7 @@ class UsuarioModel {
             const [result] = await connection.execute("SELECT * FROM  usuarios;");
             return result;
         } catch (error) {
-            return error.message
+            return error.message;
         }
         
     }
@@ -24,6 +24,7 @@ class UsuarioModel {
             data.idade,
             data.profissao
         ])
+       
         return result;
     }
 

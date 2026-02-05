@@ -3,9 +3,6 @@ import UsuarioController from "../controllers/usuarios.controllers.js";
 
 const router = Router();
 
-router.post('/tabela', (req, res) => {
-})
-
 router.post('/create', UsuarioController.createUsuario);
 
 router.get('/', UsuarioController.getAllUsuarios);

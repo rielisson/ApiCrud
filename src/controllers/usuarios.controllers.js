@@ -1,5 +1,4 @@
 import usuarioModel from "../model/usuario.model.js";
-import UsuarioModel from "../model/usuario.model.js";
 
 class UsuarioController {
     createTable() {}
